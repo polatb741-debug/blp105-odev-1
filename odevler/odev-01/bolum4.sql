@@ -53,7 +53,7 @@ SELECT user_name, task_type, COUNT(*) AS cagri_sayisi
 FROM llm_calls
 GROUP BY user_name, task_type
 ORDER BY user_name NULLS LAST, task_type;
--- 11 satır döner. Aynı kullanıcı ve iş türü birleşimi bir satır oluşturur;
+-- 12 satır döner. Aynı kullanıcı ve iş türü birleşimi bir satır oluşturur;
 -- anonim kaydın user_name alanı NULL olarak ayrı grupta görünür.
 
 -- Soru 9: İkiden fazla çağrısı olan modeller
