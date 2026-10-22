@@ -133,4 +133,4 @@ GROUP BY CASE
          END
 ORDER BY gecikme_kategorisi;
 -- 3 satır döner. Bu veride Hızlı: 4 (ortalama 607.5 ms), Orta: 4
--- (1775.0 ms), Yavaş: 4 (3137.5 ms) çağrı vardır.
+-- (1775.0 ms), Yavaş: 4 (3162.5 ms) çağrı vardır.
