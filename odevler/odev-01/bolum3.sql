@@ -53,13 +53,13 @@ WHERE (task_type = 'code' OR task_type = 'translate')
 SELECT id, model_name, latency_ms
 FROM llm_calls
 WHERE latency_ms BETWEEN 500 AND 1500;
--- 4 satır döndü.
+-- 3 satır döndü.
 
 -- Soru 9: gpt ailesine yapılan çağrılar
 SELECT id, model_name
 FROM llm_calls
 WHERE model_name IN ('gpt-4o', 'gpt-4o-mini');
--- 3 satır döndü.
+-- 4 satır döndü.
 
 -- Soru 10: Model adında mini geçen çağrılar
 SELECT id, model_name
