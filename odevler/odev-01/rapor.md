@@ -4,7 +4,7 @@
 **Öğrenci No:** 202507131015  
 **Program:** Yapay Zeka Operatörlüğü  
 **Veritabanı:** llm_ops  
-**PR bağlantısı:** PR açıldıktan sonra buraya eklenecek.
+**PR bağlantısı:** https://github.com/polatb741-debug/blp105-odev-1/pull/1
 
 ## 1. Ne yaptım
 Bölüm 1'de döngüyle listeyi izledim, eşik üstündeki en uzun kesintisiz diziyi buldum ve sözlükle ders kayıtlarını saydım. Bölüm 2'de veritabanı, DBMS ve birincil anahtar kavramlarını kendi cümlelerimle açıkladım. Bölüm 3'te SELECT, WHERE, sıralama ve metin arama sorguları; Bölüm 4'te COUNT, SUM, AVG, GROUP BY, HAVING, CASE ve NULL kontrolleri hazırladım.
